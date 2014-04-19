@@ -1,13 +1,21 @@
 application: webreflinks
-version: 4
+version: 5
 runtime: python27
 api_version: 1
 threadsafe: true
 
 handlers:
 - url: /
-  script: webreflinks.application
-- url: /list
-  script: webreflinks.list
-- url: /api
-  script: webreflinks.api
+  script: webreflinks.home
+- url: /webreflinks
+  script: webreflinks.webref
+- url: /domgen
+  script: webreflinks.domgen
+- url: /webrefpost
+  script: webreflinks.webrefpost
+- url: /webrefget
+  script: webreflinks.webrefget
+- url: /domgenpost
+  script: webreflinks.domgenpost
+- url: /domgenget
+  script: webreflinks.domgenget
