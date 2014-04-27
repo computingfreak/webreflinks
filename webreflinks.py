@@ -5,32 +5,19 @@ def generateLinks(temp,word):
 	ext=["com","org","net","io","sh","in","me","co","mobi","name","info"]
 	siteprefix=["facebook.com","twitter.com","flickr.com","instagram.com","pinterest.com","foursquare.com","github.com","notepad.cc"]
 	sitesuffix=["tumblr.com","github.io","appspot.com","herokuapp.com","wordpress.com","blogspot.com"]
-	linebreak="""\
-	<br/>"""
-	beginhtml="""\
-	<html><head><title>Link Generator</title></head><body>"""
-	begindiv="""\
-	<div align='center' style='color:black;background-color:white'>"""
-	endhtml="""\
-	</body></html>"""
-	begintable="""\
-   	<table border='1' width='90%'>"""
-	endtable="""\
-	</table>"""
-	enddiv="""\
-	</div>"""
-	startheader="""\
-	<th>"""
-	endheader="""\
-	</th>"""
-	startrow="""\
-	<tr>"""
-	endrow="""\
-	</tr>"""
-	startcell="""\
-	<td align="center">"""
-	endcell="""\
-	</td>"""
+	linebreak="""<br/>"""
+	beginhtml="""<html><head><title>Link Generator</title></head><body>"""
+	begindiv="""<div align='center' style='color:black;background-color:white'>"""
+	endhtml="""</body></html>"""
+	begintable="""<table border='1' width='90%'>"""
+	endtable="""</table>"""
+	enddiv="""</div>"""
+	startheader="""<th>"""
+	endheader="""</th>"""
+	startrow="""<tr>"""
+	endrow="""</tr>"""
+	startcell="""<td align="center">"""
+	endcell="""</td>"""
 	html=""""""
 	html=html+beginhtml+begindiv
 	
